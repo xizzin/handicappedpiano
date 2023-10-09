@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\xizzi\\OneDrive\\Рабочий стол\\си шарп\\this is nit a product of love 2\\this is not a product of love 2.csproj": {}
+    "C:\\Users\\xizzi\\OneDrive\\Рабочий стол\\си шарп\\this is not a product of love 2\\this is not a product of love 2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\xizzi\\OneDrive\\Рабочий стол\\си шарп\\this is nit a product of love 2\\this is not a product of love 2.csproj": {
+    "C:\\Users\\xizzi\\OneDrive\\Рабочий стол\\си шарп\\this is not a product of love 2\\this is not a product of love 2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\xizzi\\OneDrive\\Рабочий стол\\си шарп\\this is nit a product of love 2\\this is not a product of love 2.csproj",
+        "projectUniqueName": "C:\\Users\\xizzi\\OneDrive\\Рабочий стол\\си шарп\\this is not a product of love 2\\this is not a product of love 2.csproj",
         "projectName": "this is not a product of love 2",
-        "projectPath": "C:\\Users\\xizzi\\OneDrive\\Рабочий стол\\си шарп\\this is nit a product of love 2\\this is not a product of love 2.csproj",
+        "projectPath": "C:\\Users\\xizzi\\OneDrive\\Рабочий стол\\си шарп\\this is not a product of love 2\\this is not a product of love 2.csproj",
         "packagesPath": "C:\\Users\\xizzi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\xizzi\\OneDrive\\Рабочий стол\\си шарп\\this is nit a product of love 2\\obj\\",
+        "outputPath": "C:\\Users\\xizzi\\OneDrive\\Рабочий стол\\си шарп\\this is not a product of love 2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\xizzi\\AppData\\Roaming\\NuGet\\NuGet.Config",

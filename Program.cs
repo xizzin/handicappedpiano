@@ -64,51 +64,51 @@ namespace this_is_nit_a_product_of_love_2
                 key = Console.ReadKey();
                 if (key.Key == ConsoleKey.D)
                 {
-                    Console.Beep((int)a[0], 400);   //до
+                    Console.Beep((int)a[0], 700);   //до
                 }
                 if (key.Key == ConsoleKey.R)
                 {
-                    Console.Beep((int)a[1], 400);   //до диез
+                    Console.Beep((int)a[1], 700);   //до диез
                 }
                 if (key.Key == ConsoleKey.F)
                 {
-                    Console.Beep((int)a[2], 400);   //ре
+                    Console.Beep((int)a[2], 700);   //ре
                 }
                 if (key.Key == ConsoleKey.T)
                 {
-                    Console.Beep((int)a[3], 400);   //ре диез
+                    Console.Beep((int)a[3], 700);   //ре диез
                 }
                 if (key.Key == ConsoleKey.G)
                 {
-                    Console.Beep((int)a[4], 400);   //ми
+                    Console.Beep((int)a[4], 700);   //ми
                 }
                 if (key.Key == ConsoleKey.H)
                 {
-                    Console.Beep((int)a[5], 400);   //фа
+                    Console.Beep((int)a[5], 700);   //фа
                 }
                 if (key.Key == ConsoleKey.U)
                 {
-                    Console.Beep((int)a[6], 400);   //фа диез
+                    Console.Beep((int)a[6], 700);   //фа диез
                 }
                 if (key.Key == ConsoleKey.J)
                 {
-                    Console.Beep((int)a[7], 400);   //соль
+                    Console.Beep((int)a[7], 700);   //соль
                 }
                 if (key.Key == ConsoleKey.I)
                 {
-                    Console.Beep((int)a[8], 400);   //соль диез
+                    Console.Beep((int)a[8], 700);   //соль диез
                 }
                 if (key.Key == ConsoleKey.K)
                 {
-                    Console.Beep((int)a[9], 400);   //ля
+                    Console.Beep((int)a[9], 700);   //ля
                 }
                 if (key.Key == ConsoleKey.O)
                 {
-                    Console.Beep((int)a[10], 400);   //ля диез
+                    Console.Beep((int)a[10], 700);   //ля диез
                 }
                 if (key.Key == ConsoleKey.L)
                 {
-                    Console.Beep((int)a[11], 400);   //си
+                    Console.Beep((int)a[11], 700);   //си
                 }
                 else
                 {
@@ -123,11 +123,12 @@ namespace this_is_nit_a_product_of_love_2
             Console.WriteLine("  R   T     U   I   O");
             Console.WriteLine("D   F   G H   J   K   L\n");
             Console.WriteLine("Нажатие spacebar даст вам мозможность выбрать октаву заново.\n Нажатие escape закрывают программу.");
-            
+            Console.WriteLine("Выберите октаву:");
             ConsoleKey maink = Console.ReadKey().Key;
 
             do
             {
+                
                 ChangeOctave(maink);
                 maink = Console.ReadKey().Key;
             }
